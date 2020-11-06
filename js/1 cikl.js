@@ -1,35 +1,48 @@
 "use strict";
 
-if (1) {
-  console.log(2);
-}
+// function showFirstMessage () {
+//   console.log('hello');
+// }
 
+// let num = 10;
 
-let num = 50; 
-//const num = 50;
+//  let showFirstMessage = function (text) {
+//     console.log('text');
+//    //let num = 20;
+//     console.log(num);
+// }
 
-//(num===60) ? console.log('ok') : console.log('error');
+// showFirstMessage ();
+// console.log(num);
 
-switch (num) {
-  case 49:
-    console.log("error");
-    break;
+// function calc(a, b) {
+//   console.log(calc);
+//   return (a + b);
+// }
 
-  case 49:
-    console.log("не верно");
-    break;
+// console.log(calc(4, 3));
+// console.log(calc(5, 10));
+// console.log(calc(10, 10));
 
-  case '50':
-    console.log("верно");
-    break;
+//const calc = (a, b) => a + b;
 
-  default:
-    console.log("?");
-    break;
-}
+const fruit = 'some frut';
+// console.log(str[2]);
+// console.log(str.toUpperCase());
 
-for (let i = 1; i < 8; i++) {
-    console.log(num);
-    console.log(i);
-    num++;    
-}
+// console.log(str.toLowerCase());
+
+console.log(fruit.indexOf('frut'));
+
+const logg = "hello world";
+console.log(logg.slice(3));
+
+console.log(logg.substr(6, 3));
+
+const num = 12.2;
+
+console.log(Math.round(num));
+
+const test = '12.2px';
+
+console.log(parseFloat(test));
